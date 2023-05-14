@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class MainController {
-<<<<<<< HEAD
 
     @GetMapping("/post_uploaded")
     public String postUpload(){
@@ -18,9 +17,9 @@ public class MainController {
     }
 
     @GetMapping("/uploaded_post_single_view")
-    public String singlePost(){
+    public String singlePost() {
         return "/uploaded_post_single_view";
-=======
+    }
     @GetMapping("/")
     public String loginPage(){
         return "/login";
@@ -32,7 +31,6 @@ public class MainController {
     @GetMapping("/post_uploaded")
     public String postPage(){
         return "/post_uploaded";
->>>>>>> 301722bab57cd100a767b0709c5b202dd51f8408
     }
 
     @GetMapping("/create_table_view")
